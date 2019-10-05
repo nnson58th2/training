@@ -1,0 +1,9 @@
+@mixin reset {
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+
+@mixin reset-m-p {
+  margin: 0;
+  padding: 0;
+}

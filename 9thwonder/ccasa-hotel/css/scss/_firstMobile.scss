@@ -1,0 +1,80 @@
+/* Reponsitive first desktop */
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 960px) {
+  .main-book-noww {
+    padding: 0;
+
+    .container {
+      padding: 2.5rem;  
+      margin: 0;
+    }
+
+    input, select {
+      width: 100%;
+      margin-bottom: 30px; 
+    }
+  }
+
+  .module-main-content {
+    padding: 0 20px;
+    
+    .content {
+
+      article {
+        width: 100%;
+        flex-direction: column;   
+      }
+
+      .content-img {
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .list-inf-room {
+        margin: 0;
+        ul {
+
+          li {
+            width: 100%;
+          }
+        } 
+
+        &::before {
+          display: none;
+        }
+      }      
+    }
+  } 
+
+  .reverse {
+
+    .content {
+      article {
+        .content-img {
+          margin: 0;     
+        }
+  
+        .list-inf-room {
+          text-align: left;
+
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  
+}

@@ -183,6 +183,10 @@ header {
   margin-top: 1rem;
 }
 
+.module-main-content h2:hover {
+  cursor: pointer;
+}
+
 .module-main-content h3 {
   text-transform: uppercase;
   color: #464646;
@@ -560,6 +564,30 @@ footer .list-footer {
 
 footer .list-footer .list-footer--social {
   text-align: right;
+}
+
+@-webkit-keyframes animationText {
+  0%, 100% {
+    text-shadow: inset 0 0 3px #333;
+    position: relative;
+    top: 10px;
+  }
+  30%, 50% {
+    text-shadow: 0 0 3px #333;
+    top: -10px;
+  }
+}
+
+@keyframes animationText {
+  0%, 100% {
+    text-shadow: inset 0 0 3px #333;
+    position: relative;
+    top: 10px;
+  }
+  30%, 50% {
+    text-shadow: 0 0 3px #333;
+    top: -10px;
+  }
 }
 
 /* Reponsitive first desktop */

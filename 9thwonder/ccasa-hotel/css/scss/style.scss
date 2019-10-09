@@ -182,6 +182,10 @@ header {
       display: block;
       margin-top: 1rem;
     }
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   h3 {
@@ -528,6 +532,18 @@ footer {
     .list-footer--social {
       text-align: right;
     }
+  }
+}
+
+@keyframes animationText {
+  0%, 100% {
+    text-shadow: inset 0 0 3px #333;
+    position: relative;
+    top: 10px;
+  }
+  30%, 50% {
+    text-shadow: 0 0 3px #333;
+    top: -10px;
   }
 }
 
